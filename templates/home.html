@@ -1,0 +1,122 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="hero">
+
+<h1>
+
+⚡ Plugging into the Future
+
+</h1>
+
+<h2>
+
+An Exploration of Electricity Consumption Patterns
+
+</h2>
+
+<p>
+
+This interactive analytics platform explores India's electricity
+consumption using Tableau dashboards integrated with Flask.
+
+Gain insights into
+
+✔ State-wise Consumption
+
+✔ Region-wise Analysis
+
+✔ Quarterly Trends
+
+✔ Monthly Usage
+
+✔ Electricity Consumption Story
+
+through interactive dashboards.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="{{ url_for('dashboard1') }}" class="btn">
+
+Dashboard 1
+
+</a>
+
+<a href="{{ url_for('dashboard2') }}" class="btn">
+
+Dashboard 2
+
+</a>
+
+<a href="{{ url_for('dashboard3') }}" class="btn">
+
+Dashboard 3
+
+</a>
+
+<a href="{{ url_for('story') }}" class="btn2">
+
+Story
+
+</a>
+
+</div>
+
+</div>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>📊 State Analysis</h3>
+
+<p>
+
+Explore electricity consumption across Indian states.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🌍 Regional Insights</h3>
+
+<p>
+
+Compare electricity usage among different regions.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>📈 Trend Analysis</h3>
+
+<p>
+
+Study monthly and yearly electricity trends.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>⚡ Interactive Dashboard</h3>
+
+<p>
+
+Fully interactive Tableau dashboards embedded using Flask.
+
+</p>
+
+</div>
+
+</div>
+
+{% endblock %}

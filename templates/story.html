@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="page-header">
+
+    <h1>📖 Tableau Story</h1>
+
+    <p>
+
+        Plugging into the Future:
+        An Exploration of Electricity Consumption Patterns
+
+    </p>
+
+</div>
+
+<div class="story-container">
+
+    <div class="story-description">
+
+        <h2>Project Story</h2>
+
+        <p>
+
+            This interactive Tableau Story summarizes the complete
+            electricity consumption analysis carried out on the dataset.
+            It highlights state-wise usage, regional comparisons,
+            yearly trends, quarterly analysis, and key insights through
+            multiple dashboards connected in a storytelling format.
+
+        </p>
+
+    </div>
+
+<div class='tableauPlaceholder' id='vizStory'>
+
+<object class='tableauViz'>
+
+<param name='host_url' value='https://public.tableau.com/' />
+
+<param name='embed_code_version' value='3' />
+
+<param name='site_root' value='' />
+
+<param name='name' value='storyelectricityconsumption/StoryonElectricityConsumptioninIndia' />
+
+<param name='tabs' value='no' />
+
+<param name='toolbar' value='yes' />
+
+<param name='display_spinner' value='yes' />
+
+<param name='display_overlay' value='yes' />
+
+<param name='display_count' value='yes' />
+
+<param name='animate_transition' value='yes' />
+
+<param name='display_static_image' value='yes' />
+
+</object>
+
+</div>
+
+</div>
+
+<script>
+
+var divElement=document.getElementById('vizStory');
+
+var vizElement=divElement.getElementsByTagName('object')[0];
+
+vizElement.style.width='100%';
+vizElement.style.height='900px';
+
+var script=document.createElement('script');
+
+script.src='https://public.tableau.com/javascripts/api/viz_v1.js';
+
+vizElement.parentNode.insertBefore(script,vizElement);
+
+</script>
+
+{% endblock %}

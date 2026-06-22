@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block authcontent %}
+
+<div class="login-page">
+
+<div class="login-card">
+
+<div class="login-header">
+
+<h1>⚡ Electricity Analytics</h1>
+
+<h3>Create Your Account</h3>
+
+<p>
+
+Register to explore India's electricity consumption
+dashboards and interactive Tableau stories.
+
+</p>
+
+</div>
+
+<form method="POST" action="{{ url_for('register') }}">
+
+<div class="input-group">
+
+<label>Username</label>
+
+<input
+type="text"
+name="username"
+placeholder="Choose Username"
+required>
+
+</div>
+
+<div class="input-group">
+
+<label>Password</label>
+
+<input
+type="password"
+name="password"
+placeholder="Create Password"
+required>
+
+</div>
+
+<button class="login-btn" type="submit">
+
+Create Account
+
+</button>
+
+</form>
+
+<div class="bottom-link">
+
+Already have an account?
+
+<a href="{{ url_for('login') }}">
+
+Login
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+{% endblock %}

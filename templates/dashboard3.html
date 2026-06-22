@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="page-header">
+
+    <h1>📉 Dashboard 3</h1>
+
+    <p>
+        Electricity Consumption Trends & Comparative Analysis
+    </p>
+
+</div>
+
+<div class="dashboard-container">
+
+    <div class="dashboard-info">
+
+        <h2>Dashboard Overview</h2>
+
+        <p>
+
+            This dashboard presents an advanced analysis of electricity
+            consumption patterns across India. It enables users to
+            compare yearly trends, quarterly consumption, regional
+            distribution, and state-wise electricity usage through
+            interactive Tableau visualizations.
+
+        </p>
+
+    </div>
+
+    <div class='tableauPlaceholder' id='vizDashboard3'>
+
+        <object class='tableauViz'>
+
+            <param name='host_url' value='https://public.tableau.com/' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='electrictyconsumptionanalysis/Dashboard3' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+
+        </object>
+
+    </div>
+
+</div>
+
+<script>
+
+var divElement=document.getElementById('vizDashboard3');
+
+var vizElement=divElement.getElementsByTagName('object')[0];
+
+vizElement.style.width='100%';
+vizElement.style.height='900px';
+
+var script=document.createElement('script');
+
+script.src='https://public.tableau.com/javascripts/api/viz_v1.js';
+
+vizElement.parentNode.insertBefore(script,vizElement);
+
+</script>
+
+{% endblock %}
