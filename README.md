@@ -88,7 +88,7 @@ https://public.tableau.com/views/storyelectricityconsumption/StoryonElectricityC
 
 ## 📊 Dashboard 1
 
-![Dashboard 1](Assets/Dashboard1.jpg)
+![Dashboard 1](Assets/Dashboard1.JPG)
 
 ---
 
@@ -106,7 +106,7 @@ https://public.tableau.com/views/storyelectricityconsumption/StoryonElectricityC
 
 ## 📖 Tableau Story
 
-![Tableau Story](Assets/Storyofelectricityconsumption.jpg)
+![Tableau Story](Assets/Storyofelectricityconsumption.JPG)
 
 ---
 
