@@ -100,13 +100,13 @@ https://public.tableau.com/views/storyelectricityconsumption/StoryonElectricityC
 
 ## 📉 Dashboard 3
 
-![Dashboard 3](Assets/Dashboard3.jpg)
+![Dashboard 3](Assets/Dashboard3.JPG)
 
 ---
 
 ## 📖 Tableau Story
 
-![Tableau Story](Assets/Storyofelectricityconsumption.JPG)
+![Tableau Story](Assets/Story of electricity consumption.JPG)
 
 ---
 
