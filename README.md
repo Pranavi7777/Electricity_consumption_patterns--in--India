@@ -104,7 +104,7 @@ https://public.tableau.com/views/storyelectricityconsumption/StoryonElectricityC
 
 ---
 
-## 📖 Tableau Story
+## 📖 Story of Electricity Consumption in India
  ![Story](Assets/Story%20of%20electricity%20consumption.JPG)
 
 ---
