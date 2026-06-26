@@ -105,8 +105,7 @@ https://public.tableau.com/views/storyelectricityconsumption/StoryonElectricityC
 ---
 
 ## 📖 Tableau Story
-
-![Tableau Story](Assets/Story of electricity consumption.JPG)
+ ![Story](Assets/Story%20of%20electricity%20consumption.JPG)
 
 ---
 
