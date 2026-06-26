@@ -1,134 +1,318 @@
-⚡ Plugging into the Future: An Exploration of Electricity Consumption Patterns
+# ⚡ Plugging into the Future: An Exploration of Electricity Consumption Patterns
 
-(Professional banner image here — optional)
+<p align="center">
 
-Badges for Python, Flask, Tableau Public, SQLite, HTML5, CSS3, JavaScript, Render.
+<img src="https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python"/>
 
-📖 Overview
+<img src="https://img.shields.io/badge/Flask-Web%20Framework-black?style=for-the-badge&logo=flask"/>
 
-A polished introduction describing the project, why electricity consumption analysis matters, the impact of COVID-19, and how the application combines Tableau dashboards with Flask to provide an interactive analytics experience.
+<img src="https://img.shields.io/badge/Tableau-Public-orange?style=for-the-badge&logo=tableau"/>
 
-🚀 Live Demo
+<img src="https://img.shields.io/badge/SQLite-Database-blue?style=for-the-badge&logo=sqlite"/>
 
-Render Deployment
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
 
-🔗 Coming Soon (Add your Render URL here after deployment)
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
 
-🎥 Project Demonstration
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 
-Demo Video:
+<img src="https://img.shields.io/badge/Render-Deploy-success?style=for-the-badge&logo=render"/>
+
+<img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"/>
+
+</p>
+
+---
+
+# 📖 Project Overview
+
+Electricity is one of the most important indicators of economic development and industrial growth. This project presents an interactive analysis of electricity consumption across Indian states during **January 2019 to December 2020**, including the period affected by the **COVID-19 pandemic**.
+
+The project combines **Python**, **Flask**, **SQLite**, and **Tableau Public** to transform raw electricity consumption data into an interactive web application. Users can securely log in, explore dashboards, and gain insights into regional and state-wise electricity usage.
+
+---
+
+# 🚀 Live Application
+
+**Render Deployment**
+
+> 🔗 **Coming Soon**
+
+(Add your Render URL here after deployment.)
+
+---
+
+# 🎥 Project Demonstration
+
+Google Drive Demo Video
 
 https://drive.google.com/file/d/1tybfY_tr-eqhafgXQzOGZsUPWW3Xjy32/view
 
-📊 Project Preview
-Login Page
-![Login](Assets/login.png)
-Home Page
-![Home](Assets/home.png)
-About Page
-![About](Assets/about.png)
-Dashboard 1
-![Dashboard 1](Assets/dashboard1.jpg)
-Dashboard 2
-![Dashboard 2](Assets/dashboard2.jpg)
-Dashboard 3
-![Dashboard 3](Assets/dashboard3.jpg)
-Tableau Story
-![Story](Assets/story.jpg)
-🎯 Problem Statement
+---
 
-Use the SkillWallet description about electricity consumption, regional demand, COVID-19 lockdown effects, and recovery.
+# 📊 Tableau Public Dashboards
 
-🎯 Objectives
-Analyze state-wise electricity consumption.
-Compare regional consumption.
-Study monthly and quarterly trends.
-Understand COVID-19 impact.
-Build interactive dashboards.
-Integrate Tableau into a Flask web application.
-🏗️ System Architecture
+### Dashboard 1
 
-This is where your architecture diagram goes.
+https://public.tableau.com/views/electrictyconsumptionanalysis/Dashboard1
 
-![Architecture](Assets/architecture.png)
+### Dashboard 2
 
-Below it, explain the flow:
+https://public.tableau.com/views/electrictyconsumptionanalysis/Dashboard2
 
-Raw Electricity Dataset
-Data Preparation
-Tableau Visualizations
-Tableau Public Publishing
-Flask Integration
-User Authentication
-Interactive Dashboard
-Deployment on Render
-🖥️ Website Architecture
+### Dashboard 3
 
-A simple flow diagram in text:
+https://public.tableau.com/views/electrictyconsumptionanalysis/Dashboard3
 
-Dataset
-   │
-   ▼
+### Story
+
+https://public.tableau.com/views/storyelectricityconsumption/StoryonElectricityConsumptioninIndia
+
+---
+
+# 🖼️ Application Preview
+
+## 🔐 Login Page
+
+```text
+Assets/login.png
+```
+
+---
+
+## 🏠 Home Page
+
+```text
+Assets/home.png
+```
+
+---
+
+## ℹ️ About Page
+
+```text
+Assets/about.png
+```
+
+---
+
+## 📊 Dashboard 1
+
+```text
+Assets/dashboard1.jpg
+```
+
+---
+
+## 📈 Dashboard 2
+
+```text
+Assets/dashboard2.jpg
+```
+
+---
+
+## 📉 Dashboard 3
+
+```text
+Assets/dashboard3.jpg
+```
+
+---
+
+## 📖 Tableau Story
+
+```text
+Assets/story.jpg
+```
+
+---
+
+# 🎯 Problem Statement
+
+The project analyzes electricity consumption across India before, during, and after the COVID-19 lockdown. It helps identify consumption trends, regional demand variations, and post-lockdown recovery patterns through interactive Tableau dashboards integrated into a Flask web application.
+
+---
+
+# 🎯 Objectives
+
+* Analyze electricity consumption trends.
+* Compare state-wise electricity usage.
+* Study regional demand variations.
+* Understand the impact of COVID-19.
+* Build interactive Tableau dashboards.
+* Integrate Tableau dashboards into a Flask application.
+* Deploy the application for web access.
+
+---
+# 🏗️ Solution Architecture
+
+The project follows a complete Business Intelligence workflow beginning with raw electricity consumption data and ending with an interactive web application.
+
+```text
+                     Electricity Consumption Dataset
+                                  │
+                                  ▼
+                      Data Preparation & Validation
+                                  │
+                                  ▼
+                     Tableau Desktop Visualizations
+                                  │
+                                  ▼
+                  Interactive Dashboards & Story Creation
+                                  │
+                                  ▼
+                    Tableau Public Cloud Publishing
+                                  │
+                                  ▼
+                  Flask Web Application Integration
+                                  │
+                                  ▼
+                    User Authentication (SQLite)
+                                  │
+                                  ▼
+                 Interactive Analytics Web Platform
+                                  │
+                                  ▼
+                      Deployment using Render
+```
+
+### 📐 Architecture Diagram
+
+> Replace the path below with your architecture image filename.
+
+```text
+Assets/architecture.png
+```
+
+---
+
+# 🔄 Project Workflow
+
+```text
+Data Collection
+      │
+      ▼
 Data Cleaning
-   │
-   ▼
-Tableau Dashboards
-   │
-   ▼
-Tableau Public
-   │
-   ▼
-Flask Backend
-   │
-   ▼
-Authentication
-   │
-   ▼
-Responsive Website
-   │
-   ▼
-Render Deployment
-📈 Features
-Secure Login & Registration
-Responsive UI
+      │
+      ▼
+Exploratory Data Analysis
+      │
+      ▼
 Interactive Tableau Dashboards
-State-wise Analysis
-Region-wise Analysis
-Quarterly Trends
-Monthly Trends
-Story Visualization
-SQLite Database
-Flask Authentication
-Render Ready
-📊 Tableau Public
+      │
+      ▼
+Tableau Public
+      │
+      ▼
+Flask Integration
+      │
+      ▼
+Login Authentication
+      │
+      ▼
+Responsive Web Application
+      │
+      ▼
+Render Cloud Deployment
+```
 
-Dashboard 1
+---
 
-https://public.tableau.com/views/electrictyconsumptionanalysis/Dashboard1?...
+# ✨ Key Features
 
-Dashboard 2
+✅ Secure Login & Registration System
 
-https://public.tableau.com/views/electrictyconsumptionanalysis/Dashboard2?...
+✅ SQLite User Authentication
 
-Dashboard 3
+✅ Interactive Tableau Public Dashboards
 
-https://public.tableau.com/views/electrictyconsumptionanalysis/Dashboard3?...
+✅ Dashboard Navigation
 
-Story
+✅ Story Visualization
 
-https://public.tableau.com/views/storyelectricityconsumption/StoryonElectricityConsumptioninIndia?...
+✅ Monthly Electricity Trend Analysis
 
-🛠️ Tech Stack
-Technology	Purpose
-Python	Backend
-Flask	Web Framework
-Tableau Public	Visualization
-SQLite	Database
-HTML5	Frontend
-CSS3	Styling
-JavaScript	Interactivity
-Render	Deployment
-📂 Project Structure
+✅ Quarterly Consumption Analysis
+
+✅ State-wise Electricity Consumption
+
+✅ Region-wise Electricity Analysis
+
+✅ COVID-19 Lockdown Impact Analysis
+
+✅ Responsive Flask Website
+
+✅ Modern User Interface
+
+✅ Dark Mode Support
+
+✅ Render Deployment Ready
+
+---
+
+# 💻 Technology Stack
+
+| Category             | Technologies            |
+| -------------------- | ----------------------- |
+| Programming Language | Python                  |
+| Backend Framework    | Flask                   |
+| Database             | SQLite                  |
+| Data Visualization   | Tableau Public          |
+| Frontend             | HTML5, CSS3, JavaScript |
+| Version Control      | Git & GitHub            |
+| IDE                  | Visual Studio Code      |
+| Deployment           | Render                  |
+| Documentation        | Microsoft Word & PDF    |
+
+---
+
+# 📊 Dashboards Included
+
+### 📈 Dashboard 1 — Electricity Consumption Trends
+
+* Monthly Electricity Consumption
+* Quarterly Analysis
+* State-wise Comparison
+* Seasonal Trend Analysis
+
+---
+
+### 📊 Dashboard 2 — Regional Analysis
+
+* Region-wise Electricity Consumption
+* Northern Region
+* Southern Region
+* Eastern Region
+* Western Region
+* North-Eastern Region
+
+---
+
+### 📉 Dashboard 3 — Recovery After Lockdown
+
+* COVID-19 Impact
+* Recovery Pattern
+* Consumption Comparison
+* Post-lockdown Analysis
+
+---
+
+### 📖 Tableau Story
+
+The Story combines all dashboards into a guided presentation explaining:
+
+* Overall Consumption Trends
+* Regional Demand
+* COVID-19 Lockdown Effects
+* Recovery After Lockdown
+* Final Business Insights
+
+---
+
+# 📁 Project Structure
+
+```text
 Electricity_Consumption_Patterns
 │
 ├── Assets
@@ -142,63 +326,220 @@ Electricity_Consumption_Patterns
 │   └── architecture.png
 │
 ├── Dataset
+│
 ├── Documentation
-├── demo_video
+│
 ├── instance
+│   └── users.db
+│
 ├── static
+│   ├── style.css
+│   └── script.js
+│
 ├── templates
+│   ├── base.html
+│   ├── home.html
+│   ├── login.html
+│   ├── register.html
+│   ├── about.html
+│   ├── dashboard1.html
+│   ├── dashboard2.html
+│   ├── dashboard3.html
+│   └── story.html
+│
 ├── app.py
-├── Procfile
 ├── requirements.txt
-└── README.md
-⚙️ Installation
-git clone <your-repository-url>
+├── Procfile
+├── README.md
+└── LICENSE
+```
 
-cd Electricity_Consumption_Patterns
+---
 
+# 📌 Project Scenarios
+
+## Scenario 1 – Overall Consumption Trends
+
+Analyze the month-by-month electricity consumption across India from January 2019 to December 2020 and understand how demand changed over time.
+
+---
+
+## Scenario 2 – Regional Demand Analysis
+
+Compare electricity consumption across different regions of India to identify high-demand and low-demand areas.
+
+---
+
+## Scenario 3 – Recovery After COVID-19 Lockdown
+
+Study the recovery of electricity demand following the nationwide lockdown and evaluate how different states returned to normal consumption levels.
+
+---
+# ⚙️ Installation Guide
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Pranavi7777/Electricity_consumption_patterns--in--India.git
+```
+
+Navigate into the project directory:
+
+```bash
+cd Electricity_consumption_patterns--in--India
+```
+
+Install the required dependencies:
+
+```bash
 pip install -r requirements.txt
+```
 
+Run the Flask application:
+
+```bash
 python app.py
+```
 
-Open:
+Open your browser and visit:
 
+```text
 http://127.0.0.1:5000
-📌 Scenarios Covered
-Scenario 1 – Overall Consumption Trends
+```
 
-Analysis of electricity usage from January 2019 to December 2020, highlighting seasonal changes and the impact of COVID-19.
+---
 
-Scenario 2 – Regional Variations
+# 🌐 Deployment
 
-Comparison of electricity consumption across Northern, Southern, Eastern, Western, and Northeastern regions.
+## Render Deployment
 
-Scenario 3 – Recovery After Lockdown
+> 🔗 **Live Website:** *(Add your Render deployment link here after deployment.)*
 
-Study of how different states recovered in electricity demand following nationwide COVID-19 restrictions.
+Example:
 
-👥 Team
-Name	Role
-Guruju Harika Durga Bhavani	Team Lead
-Pranavi Karumuri	Developer
-Kavala Naga Veera Manikanta	Member
-Lahari Iddum	Member
-Lakshmi Prasanna	Member
-👩‍💻 Developed By
+```text
+https://electricity-consumption-patterns.onrender.com
+```
 
-Pranavi Karumuri
+---
 
-B.Tech – Computer Science & Data Science
+# 📂 Repository
+
+GitHub Repository
+
+```text
+https://github.com/Pranavi7777/Electricity_consumption_patterns--in--India
+```
+
+---
+
+# 📷 Project Screenshots
+
+| Screen                | Preview                 |
+| --------------------- | ----------------------- |
+| Login Page            | Assets/login.png        |
+| Home Page             | Assets/home.png         |
+| About Page            | Assets/about.png        |
+| Dashboard 1           | Assets/dashboard1.jpg   |
+| Dashboard 2           | Assets/dashboard2.jpg   |
+| Dashboard 3           | Assets/dashboard3.jpg   |
+| Tableau Story         | Assets/story.jpg        |
+| Solution Architecture | Assets/architecture.png |
+
+---
+
+# 👨‍💻 Team Members
+
+| Name                        | Role        |
+| --------------------------- | ----------- |
+| Guruju Harika Durga Bhavani | Team Lead   |
+| Pranavi Karumuri            | Developer   |
+| Kavala Naga Veera Manikanta | Team Member |
+| Lahari Iddum                | Team Member |
+| Lakshmi Prasanna            | Team Member |
+
+---
+
+# 🌟 Future Enhancements
+
+* Real-time Electricity Consumption Monitoring
+* AI-based Electricity Demand Forecasting
+* Machine Learning Prediction Models
+* Smart Grid Analytics
+* Interactive Geographic Maps
+* Live Data Integration using APIs
+* Mobile Responsive Dashboard
+* Cloud Database Integration
+* User Profile & Personalized Analytics
+* Power BI Comparative Analysis
+* Energy Efficiency Recommendations
+* Advanced Business Intelligence Reports
+
+---
+
+# 🙏 Acknowledgements
+
+We sincerely thank:
+
+* Swarnandhra College of Engineering and Technology
+* SkillWallet
+* Tableau Public
+* Flask Community
+* Python Community
+* Open Source Contributors
+
+for providing the resources and platforms that made this project possible.
+
+---
+
+# 📄 License
+
+This project is released under the **MIT License**.
+
+Feel free to use, modify, and learn from this project for educational purposes.
+
+---
+
+# 👩‍💻 Developed By
+
+## **Pranavi Karumuri**
+
+**B.Tech – Computer Science & Data Science**
 
 Swarnandhra College of Engineering and Technology
 
-🔮 Future Scope
-AI-based electricity demand forecasting
-Machine learning consumption prediction
-Live electricity APIs
-Real-time analytics
-Smart grid monitoring
-Mobile-first responsive dashboard
-Advanced business intelligence reports
-📄 License
+📧 Email: *(Add your email here)*
 
-This project is intended for educational and academic purposes.
+💼 LinkedIn: *(Add your LinkedIn profile here)*
+
+💻 GitHub:
+
+```text
+https://github.com/Pranavi7777
+```
+
+---
+
+# ⭐ Support
+
+If you found this project useful:
+
+⭐ Star this repository
+
+🍴 Fork this repository
+
+📢 Share it with others
+
+---
+
+<div align="center">
+
+## ⚡ Thank You for Visiting! ⚡
+
+### Plugging into the Future: An Exploration of Electricity Consumption Patterns
+
+**Transforming Data into Meaningful Insights with Tableau & Flask**
+
+Made with ❤️ by **Pranavi Karumuri**
+
+</div>
