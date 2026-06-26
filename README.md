@@ -68,95 +68,51 @@ https://public.tableau.com/views/electrictyconsumptionanalysis/Dashboard3
 
 https://public.tableau.com/views/storyelectricityconsumption/StoryonElectricityConsumptioninIndia
 
----
+## 🔐 Login Page
 
-```md
-# 🖼️ Project Gallery
-
-## 🔐 Authentication Module
-
-| Login Page | Home Page |
-|------------|-----------|
-| <img src="Assets/login.png" width="500"> | <img src="Assets/home.png" width="500"> |
+![Login Page](Assets/login.png)
 
 ---
 
-## ℹ️ About Project
+## 🏠 Home Page
 
-<p align="center">
-<img src="Assets/about.png" width="900">
-</p>
+![Home Page](Assets/home.png)
 
 ---
 
-# 📊 Tableau Dashboards
+## ℹ️ About Page
 
-## Dashboard Overview
-
-| Dashboard 1 | Dashboard 2 |
-|-------------|-------------|
-| <img src="Assets/dashboard1.jpg" width="500"> | <img src="Assets/dashboard2.jpg" width="500"> |
+![About Page](Assets/about.png)
 
 ---
 
-| Dashboard 3 | Tableau Story |
-|-------------|---------------|
-| <img src="Assets/dashboard3.jpg" width="500"> | <img src="Assets/story.jpg" width="500"> |
+## 📊 Dashboard 1
+
+![Dashboard 1](Assets/dashboard1.jpg)
 
 ---
 
-# 📈 Dashboard Highlights
+## 📈 Dashboard 2
 
-### 📊 Dashboard 1
-✔ Monthly Electricity Consumption
-
-✔ Quarterly Analysis
-
-✔ State-wise Comparison
-
-✔ Electricity Trend
+![Dashboard 2](Assets/dashboard2.jpg)
 
 ---
 
-### 📈 Dashboard 2
+## 📉 Dashboard 3
 
-✔ Region-wise Electricity Consumption
-
-✔ North, South, East, West Analysis
-
-✔ Regional Comparison
-
-✔ Energy Distribution
+![Dashboard 3](Assets/dashboard3.jpg)
 
 ---
 
-### 📉 Dashboard 3
+## 📖 Tableau Story
 
-✔ COVID-19 Lockdown Impact
-
-✔ Recovery Analysis
-
-✔ Growth Comparison
-
-✔ Consumption Recovery
+![Tableau Story](Assets/story.jpg)
 
 ---
 
-### 📖 Tableau Story
+## 🏗️ Solution Architecture
 
-✔ Overall Consumption Trends
-
-✔ Regional Analysis
-
-✔ COVID-19 Impact
-
-✔ Recovery after Lockdown
-
-✔ Final Business Insights
-
----
-```
-
+![Architecture](Assets/architecture.png)
 # 🎯 Problem Statement
 
 The project analyzes electricity consumption across India before, during, and after the COVID-19 lockdown. It helps identify consumption trends, regional demand variations, and post-lockdown recovery patterns through interactive Tableau dashboards integrated into a Flask web application.
