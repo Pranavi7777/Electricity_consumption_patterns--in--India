@@ -70,63 +70,92 @@ https://public.tableau.com/views/storyelectricityconsumption/StoryonElectricityC
 
 ---
 
-# 🖼️ Application Preview
+```md
+# 🖼️ Project Gallery
 
-## 🔐 Login Page
+## 🔐 Authentication Module
 
-```text
-Assets/login.png
-```
-
----
-
-## 🏠 Home Page
-
-```text
-Assets/home.png
-```
+| Login Page | Home Page |
+|------------|-----------|
+| <img src="Assets/login.png" width="500"> | <img src="Assets/home.png" width="500"> |
 
 ---
 
-## ℹ️ About Page
+## ℹ️ About Project
 
-```text
-Assets/about.png
-```
-
----
-
-## 📊 Dashboard 1
-
-```text
-Assets/dashboard1.jpg
-```
+<p align="center">
+<img src="Assets/about.png" width="900">
+</p>
 
 ---
 
-## 📈 Dashboard 2
+# 📊 Tableau Dashboards
 
-```text
-Assets/dashboard2.jpg
-```
+## Dashboard Overview
 
----
-
-## 📉 Dashboard 3
-
-```text
-Assets/dashboard3.jpg
-```
+| Dashboard 1 | Dashboard 2 |
+|-------------|-------------|
+| <img src="Assets/dashboard1.jpg" width="500"> | <img src="Assets/dashboard2.jpg" width="500"> |
 
 ---
 
-## 📖 Tableau Story
-
-```text
-Assets/story.jpg
-```
+| Dashboard 3 | Tableau Story |
+|-------------|---------------|
+| <img src="Assets/dashboard3.jpg" width="500"> | <img src="Assets/story.jpg" width="500"> |
 
 ---
+
+# 📈 Dashboard Highlights
+
+### 📊 Dashboard 1
+✔ Monthly Electricity Consumption
+
+✔ Quarterly Analysis
+
+✔ State-wise Comparison
+
+✔ Electricity Trend
+
+---
+
+### 📈 Dashboard 2
+
+✔ Region-wise Electricity Consumption
+
+✔ North, South, East, West Analysis
+
+✔ Regional Comparison
+
+✔ Energy Distribution
+
+---
+
+### 📉 Dashboard 3
+
+✔ COVID-19 Lockdown Impact
+
+✔ Recovery Analysis
+
+✔ Growth Comparison
+
+✔ Consumption Recovery
+
+---
+
+### 📖 Tableau Story
+
+✔ Overall Consumption Trends
+
+✔ Regional Analysis
+
+✔ COVID-19 Impact
+
+✔ Recovery after Lockdown
+
+✔ Final Business Insights
+
+---
+```
 
 # 🎯 Problem Statement
 
@@ -508,9 +537,9 @@ Feel free to use, modify, and learn from this project for educational purposes.
 
 Swarnandhra College of Engineering and Technology
 
-📧 Email: *(Add your email here)*
+📧 Email: karumuripranavi@gmail.com
 
-💼 LinkedIn: *(Add your LinkedIn profile here)*
+💼 LinkedIn: https://www.linkedin.com/in/pranavi-karumuri-385283320
 
 💻 GitHub:
 
