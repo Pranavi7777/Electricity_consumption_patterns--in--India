@@ -88,31 +88,29 @@ https://public.tableau.com/views/storyelectricityconsumption/StoryonElectricityC
 
 ## 📊 Dashboard 1
 
-![Dashboard 1](Assets/dashboard1.jpg)
+![Dashboard 1](Assets/Dashboard1.jpg)
 
 ---
 
 ## 📈 Dashboard 2
 
-![Dashboard 2](Assets/dashboard2.jpg)
+![Dashboard 2](Assets/Dashboard2.jpg)
 
 ---
 
 ## 📉 Dashboard 3
 
-![Dashboard 3](Assets/dashboard3.jpg)
+![Dashboard 3](Assets/Dashboard3.jpg)
 
 ---
 
 ## 📖 Tableau Story
 
-![Tableau Story](Assets/story.jpg)
+![Tableau Story](Assets/Storyofelectricityconsumption.jpg)
 
 ---
 
-## 🏗️ Solution Architecture
 
-![Architecture](Assets/architecture.png)
 # 🎯 Problem Statement
 
 The project analyzes electricity consumption across India before, during, and after the COVID-19 lockdown. It helps identify consumption trends, regional demand variations, and post-lockdown recovery patterns through interactive Tableau dashboards integrated into a Flask web application.
