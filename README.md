@@ -293,7 +293,7 @@ Electricity_Consumption_Patterns
 │   ├── dashboard2.jpg
 │   ├── dashboard3.jpg
 │   ├── story.jpg
-│   └── architecture.png
+│ 
 │
 ├── Dataset
 │
@@ -383,8 +383,7 @@ http://127.0.0.1:5000
 
 ## Render Deployment
 
-> 🔗 **Live Website:** *(Add your Render deployment link here after deployment.)*
-> https://electricity-consumption-patterns-in-india.onrender.com
+> 🔗 **Live Website:https://electricity-consumption-patterns-in-india.onrender.com
 ---
 
 # 📂 Repository
@@ -407,8 +406,7 @@ https://github.com/Pranavi7777/Electricity_consumption_patterns--in--India
 | Dashboard 1           | Assets/dashboard1.jpg   |
 | Dashboard 2           | Assets/dashboard2.jpg   |
 | Dashboard 3           | Assets/dashboard3.jpg   |
-| Tableau Story         | Assets/story.jpg        |
-| Solution Architecture | Assets/architecture.png |
+| Tableau Story         | Assets/story.jpg        ||
 
 ---
 
