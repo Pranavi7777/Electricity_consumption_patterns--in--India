@@ -36,9 +36,7 @@ The project combines **Python**, **Flask**, **SQLite**, and **Tableau Public** t
 
 **Render Deployment**
 
-> 🔗 **Coming Soon**
-
-(Add your Render URL here after deployment.)
+https://electricity-consumption-patterns-in-india.onrender.com
 
 ---
 
@@ -159,16 +157,6 @@ The project follows a complete Business Intelligence workflow beginning with raw
                       Deployment using Render
 ```
 
-### 📐 Architecture Diagram
-
-> Replace the path below with your architecture image filename.
-
-```text
-Assets/architecture.png
-```
-
----
-
 # 🔄 Project Workflow
 
 ```text
@@ -280,7 +268,7 @@ Render Cloud Deployment
 
 ---
 
-### 📖 Tableau Story
+### 📖 sTORY OF ELECTRICITY CONSUMPTION IN INDIA
 
 The Story combines all dashboards into a guided presentation explaining:
 
@@ -396,13 +384,7 @@ http://127.0.0.1:5000
 ## Render Deployment
 
 > 🔗 **Live Website:** *(Add your Render deployment link here after deployment.)*
-
-Example:
-
-```text
-https://electricity-consumption-patterns.onrender.com
-```
-
+> https://electricity-consumption-patterns-in-india.onrender.com
 ---
 
 # 📂 Repository
